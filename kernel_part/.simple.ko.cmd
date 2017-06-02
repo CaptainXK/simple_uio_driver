@@ -1,1 +1,0 @@
-cmd_/home/xk/project/my_driver/simple_uio_test/kernel_part/simple.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/xk/project/my_driver/simple_uio_test/kernel_part/simple.ko /home/xk/project/my_driver/simple_uio_test/kernel_part/simple.o /home/xk/project/my_driver/simple_uio_test/kernel_part/simple.mod.o
