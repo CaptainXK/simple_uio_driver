@@ -41,12 +41,12 @@ int main(void){
            "can be accessed over\n"
            "logical address %p\n", uio_addr, uio_size, access_address);
     // int ret = write(uio_fd, buff, strlen(buff));
-    char * start = (char *)access_address;
     // strcpy(start,buff);
-    for(int i=0; i<1024; i++){
-        printf("%c",start[i]);
-    }
-    printf("\n");
+    // char * start = (char *)access_address;
+    // for(int i=0; i<1024; i++){
+    //     printf("%c",start[i]);
+    // }
+    // printf("\n");
     // if(ret >= 0){
     //     printf("write %d bytes into dev\n",ret);
     // }

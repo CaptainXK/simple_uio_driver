@@ -1,0 +1,7 @@
+make kernel part first and insmod it into kernel by steps as flowed
+1.run : cp [module_name].ko /lib/module/`uname -r`/
+2.run : depmod
+3.run : modprobe [module_name]
+
+tips:
+run "insmod [module_name].ko" may fail sometimes because module insmoded depend on other modules, and modprobe can process this dependence pf modules automatically.
